@@ -43,7 +43,7 @@ const data = await res.json();
 
 if (data.ok) {
   stats.sent++;
-  addLog('ok', `Sent to ${config.channel}`);
+  addLog('ok', 'Message sent');
   return true;
 } else {
   stats.failed++;
