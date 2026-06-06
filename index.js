@@ -235,7 +235,7 @@ if (!d.ok) {
 config.token = token;
 config.channel = channel;
 
-addLog('ok', `Bot @${d.result.username} connected to ${channel}`);
+addLog('ok', 'Bot connected');
 res.json({ ok: true, botName: d.result.username });
 ```
 
