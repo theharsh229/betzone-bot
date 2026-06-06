@@ -47,7 +47,7 @@ if (data.ok) {
   return true;
 } else {
   stats.failed++;
-  addLog('err', `Error: ${data.description}`);
+  addLog('err', 'Error: ' + data.description);
   return false;
 }
 ```
